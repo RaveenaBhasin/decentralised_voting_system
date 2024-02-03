@@ -1,8 +1,7 @@
 # Voting Smart Contract
 
 ## Overview
-The Voting Smart Contract is a decentralized application (DApp) built on the Ethereum blockchain. It allows users to create polls, vote on options within the polls, and determine the winner based on the votes received during a specified voting period.
-
+The Voting Smart Contract allows users to create polls, vote on options within the polls, and determine the winner based on the votes received during a specified voting period.
 
 ## Contract Structure
 
@@ -63,6 +62,9 @@ The Voting Smart Contract is a decentralized application (DApp) built on the Eth
    - **Access:** Any user
    - **Description:** Retrieves the details of a specific poll.
 
+## Etherscan Link  
+#### https://sepolia.etherscan.io/address/0x824cd0a64dabc437e8f5497d8da4e14002be14c9
+
 ## Sample Testing for Voting Smart Contract
 
 ### Execution:
@@ -113,3 +115,4 @@ Call `getPollWinner` to view the winner candidate along with their votes.
 
 - **Arguments:**
   - `pollId:` "1"
+ 
